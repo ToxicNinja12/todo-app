@@ -1,8 +1,10 @@
+import InputField from "./InputField";
+
 function App() {
   return (
-    <>
-      <h1 className="text-lg text-blue-100 bg-blue-500">Hello, World!</h1>
-    </>
+    <div className="flex flex-col items-center justify-center h-screen">
+      <InputField />
+    </div>
   );
 }
 
